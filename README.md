@@ -3,7 +3,7 @@
 This repository contains the code used for the reference verification component of the paper.
 
 ## Main script
-`unified_verifier6_submission4.py`
+`reference_verifier.py`
 
 ## Requirements
 - Python 3
@@ -16,13 +16,13 @@ pip install -r requirements.txt
 
 ## Run
 ```bash
-python unified_verifier6_submission4.py references.txt
+python reference_verifier.py references.txt
 ```
 
 You can also provide references through standard input:
 
 ```bash
-python unified_verifier6_submission4.py
+python reference_verifier.py
 ```
 
 ## Output
@@ -49,12 +49,12 @@ For each reference, the script:
 The script does not hardcode a personal email address. Users can optionally set an environment variable before running the tool:
 
 ```bash
-ARV_CONTACT_EMAIL=you@example.com python unified_verifier6_submission4.py references.txt
+ARV_CONTACT_EMAIL=you@example.com python reference_verifier.py references.txt
 ```
 
 On Windows PowerShell:
 
 ```powershell
 $env:ARV_CONTACT_EMAIL="you@example.com"
-python unified_verifier6_submission4.py references.txt
+python reference_verifier.py references.txt
 ```
