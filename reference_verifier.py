@@ -11,7 +11,6 @@ from typing import Dict, List, Optional, Tuple
 import requests
 
 # --- Configuration ---
-# Public code should not hardcode a personal email address.
 # Users can set ARV_CONTACT_EMAIL if they want to identify themselves to the APIs.
 CROSSREF_API_URL = "https://api.crossref.org/works"
 OPENALEX_API_URL = "https://api.openalex.org/works"
