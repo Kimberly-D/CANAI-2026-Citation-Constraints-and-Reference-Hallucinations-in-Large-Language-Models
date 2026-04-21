@@ -1,6 +1,6 @@
 # Reference Verification Tool
 
-This repository contains the code used for the reference verification component of the paper.
+This repository contains the code used for the reference verification component of the Citation Constraints and Reference Hallucinations in Large Language Models paper.
 
 ## Main script
 `reference_verifier.py`
